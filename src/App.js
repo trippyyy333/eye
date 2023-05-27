@@ -4,10 +4,11 @@ import './App.css';
 
 
 import React from 'react'
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <><div>Asddsapp</div><header className="App-header">
+    <><><div>Asddsapp</div><header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
         Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +21,7 @@ const App = () => {
       >
         Learn React
       </a>
-    </header></>
+    </header></><Navbar></Navbar></>
   )
 }
 
